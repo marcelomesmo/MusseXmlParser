@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<spritesheet>
+	<animation name="walk">
+		<sprite name="Label9">
+			<offset_x>157</offset_x>
+			<offset_y>162</offset_y>
+			<width>95</width>
+			<height>133</height>
+		</sprite>
+		<sprite name="Label6">
+			<offset_x>673</offset_x>
+			<offset_y>159</offset_y>
+			<width>101</width>
+			<height>133</height>
+		</sprite>
+		<sprite name="Label1">
+			<offset_x>418</offset_x>
+			<offset_y>158</offset_y>
+			<width>94</width>
+			<height>132</height>
+		</sprite>
+		<sprite name="Label3">
+			<offset_x>287</offset_x>
+			<offset_y>159</offset_y>
+			<width>94</width>
+			<height>134</height>
+		</sprite>
+		<sprite name="Label4">
+			<offset_x>545</offset_x>
+			<offset_y>159</offset_y>
+			<width>98</width>
+			<height>132</height>
+		</sprite>
+	</animation>	
+	<animation name="run">
+		<sprite name="Label3">
+			<offset_x>274</offset_x>
+			<offset_y>310</offset_y>
+			<width>109</width>
+			<height>127</height>
+		</sprite>
+		<sprite name="Label5">
+			<offset_x>412</offset_x>
+			<offset_y>311</offset_y>
+			<width>101</width>
+			<height>128</height>
+		</sprite>
+		<sprite name="Label1">
+			<offset_x>138</offset_x>
+			<offset_y>309</offset_y>
+			<width>116</width>
+			<height>126</height>
+		</sprite>
+	</animation>
+</spritesheet>
