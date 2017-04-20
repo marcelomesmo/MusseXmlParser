@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<spritesheet image_name="test1.png" width="1305" height="1054" ck_r="255" ck_g="255" ck_b="255" >
+	<animation name="newAnimation1">
+		<sprite name="Label3">
+			<offset_x>343</offset_x>
+			<offset_y>189</offset_y>
+			<width>69</width>
+			<height>143</height>
+			<anchor_x>343</anchor_x>
+			<anchor_y>189</anchor_y>
+		</sprite>
+		<sprite name="Label5">
+			<offset_x>503</offset_x>
+			<offset_y>190</offset_y>
+			<width>69</width>
+			<height>140</height>
+			<anchor_x>503</anchor_x>
+			<anchor_y>190</anchor_y>
+		</sprite>
+		<sprite name="Label1">
+			<offset_x>663</offset_x>
+			<offset_y>188</offset_y>
+			<width>68</width>
+			<height>144</height>
+			<anchor_x>663</anchor_x>
+			<anchor_y>188</anchor_y>
+		</sprite>
+	</animation>
+</spritesheet>

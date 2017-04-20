@@ -124,13 +124,15 @@ public class JavaXmlParser {
 					int posY = Integer.parseInt( sprite.getElementsByTagName("offset_y").item(0).getTextContent() );
 					int w	 = Integer.parseInt( sprite.getElementsByTagName("width").item(0).getTextContent() );
 					int h 	 = Integer.parseInt( sprite.getElementsByTagName("height").item(0).getTextContent() );
-
+					int ancX = Integer.parseInt( sprite.getElementsByTagName("anchor_x").item(0).getTextContent() );
+					int ancY = Integer.parseInt( sprite.getElementsByTagName("anchor_y").item(0).getTextContent() );
+					
 					/*
 					 * This is where your Engine should read the Sprite elements.
 					 * 
 					 * Something like:
 					 * 
-					 * 		Sprite s = new Sprite(posX, posY, w, h);
+					 * 		Sprite s = new Sprite(posX, posY, w, h, ancX, ancY);
 					 * 
 					 * And add it to the Animation object:
 					 * 
@@ -144,6 +146,8 @@ public class JavaXmlParser {
 					System.out.println("Offset Y : " + posY);
 					System.out.println("Width    : " + w);
 					System.out.println("Height   : " + h);
+					System.out.println("Anchor X : " + ancX);
+					System.out.println("Anchor Y : " + ancY);
 					
 				}
 

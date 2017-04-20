@@ -8,12 +8,14 @@ using namespace rapidxml;
 using namespace std;
 
 /*
- *	There's plenty of parsers available to C++.
+ *	There's plenty of parsers available in C++.
  *	I choose RapidXml 'cause of this thread:
  *	http://stackoverflow.com/questions/9387610/what-xml-parser-should-i-use-in-c
  *	(see flowchart image)
  *
  *	XMLParser in C++ to read MuSSE's XML files.
+ *
+ *	Working example at https://github.com/marcelomesmo/Reis (/Reis/data/xml)
  *
  */
 class CppXmlParser

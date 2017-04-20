@@ -65,6 +65,8 @@ void CppXmlParser::parseXmlFile(char src[])
 			int posY = std::stoi( sprites->first_node("offset_y")->value() );
 			int w = std::stoi( sprites->first_node("width")->value() );
 			int h = std::stoi( sprites->first_node("height")->value() );
+			int ancX = std::stoi(sprites->first_node("anchor_X")->value());
+			int ancY = std::stoi(sprites->first_node("anchor_Y")->value());
 
 			/*
 			* This is where your Engine should read the Sprite elements.
@@ -85,6 +87,8 @@ void CppXmlParser::parseXmlFile(char src[])
 			cout << "Offset Y : " << posY << "\n";
 			cout << "Width    : " << w << "\n";
 			cout << "Height   : " << h << "\n";
+			cout << "Anchor X : " << ancX << "\n";
+			cout << "Anchor Y : " << ancY << "\n";
 		}
 		cout << "\n";
 	}

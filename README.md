@@ -6,6 +6,9 @@ C++ and Java version.
 
 C++ has a RapidXml dependency.  
 Download at : http://rapidxml.sourceforge.net/  
+Extract into project folder.  
+    
+Working example at https://github.com/marcelomesmo/Reis (/Reis/data/xml)  
     
 <br />
 <br />    
